@@ -1,11 +1,6 @@
-'''
-Created on 15-Aug-2017
-
-@author: Dishant
-'''
 import cx_Oracle
 from _overlapped import NULL
-connection = cx_Oracle.connect('system/2314022@Localhost/XE')
+connection = cx_Oracle.connect('system/password@Localhost/XE')
 cursor1 = connection.cursor()
 cursor2 = connection.cursor()
 
